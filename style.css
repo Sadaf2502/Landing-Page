@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background: #b97b58;
+    color: #5D2D24;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    height: 80px;
+    width: auto;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: #5D2D24;
+    text-decoration: none;
+  }
+  .hero-section {
+    background: url("https://images.shiksha.com/mediadata/images/articles/1585561442phplR2Sme.jpeg") no-repeat center center/cover;
+    height: 100vh;
+    color: #5D2D24;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 50px;
+    box-sizing: border-box;
+  }
+  
+  .hero-content{
+    max-width: 600px;
+    text-align: right;
+  }
+  
+  .hero-section h2 {
+    font-size: 3em;
+    margin: 0;
+  }
+  .hero-section p {
+    font-size: 1.5em;
+  }
+  
+  #learnMoreBtn {
+    background: #fff;
+    color: #b97b58;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  section {
+    padding: 60px 0;
+  }
+  section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+  }
+  
+  section p, section ul {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1.25em;
+  }
+  
+  footer {
+    background: #b97b58;
+    color: #000;
+    text-align: center;
+    padding: 20px 0;
+  }
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%
+    font-size: 1em;
+    box-sizing: border-box;
+  }
+  
+  form button {
+    padding: 10px;
+    font-size: 1em;
+    background: #b97b58;
+    color: #000;
+    border: none;
+    cursor: pointer;
+  }
+  form button[type="submit"] {
+    font-size: 1em;
+  }
+  
